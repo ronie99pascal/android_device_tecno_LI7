@@ -1,4 +1,4 @@
-# Android device tree for TECNO  (FULL-64-ARMV82)
+# Android device tree for TECNO POVA 6 (LI7)
 
 ```
 #

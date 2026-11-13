@@ -7,14 +7,14 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from FULL-64-ARMV82 device
-$(call inherit-product, device/tecno/FULL-64-ARMV82/device.mk)
+# Inherit from LI7 device
+$(call inherit-product, device/tecno/LI7/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-PRODUCT_DEVICE := FULL-64-ARMV82
-PRODUCT_NAME := lineage_FULL-64-ARMV82
+PRODUCT_DEVICE := LI7
+PRODUCT_NAME := lineage_LI7
 PRODUCT_BRAND := TECNO
 PRODUCT_MANUFACTURER := tecno
 

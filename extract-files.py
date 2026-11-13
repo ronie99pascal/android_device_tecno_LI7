@@ -10,11 +10,11 @@ from extract_utils.main import (
 )
 
 namespace_imports = [
-    'device/tecno/FULL-64-ARMV82',
+    'device/tecno/LI7',
 ]
 
 module = ExtractUtilsModule(
-    'FULL-64-ARMV82',
+    'LI7',
     'tecno',
     namespace_imports=namespace_imports,
 )
